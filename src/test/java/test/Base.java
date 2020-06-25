@@ -32,7 +32,7 @@ class Base {
     protected void run() {
         double r = Math.random();
 	//fail("Always fail!");
-        if (r < 0.06) {
+        if (r < 0.02) {
             fail("It was unlikely, but I failed");
         } else if (r < 0.2) {
             throw new AssumptionViolatedException("skipping");
